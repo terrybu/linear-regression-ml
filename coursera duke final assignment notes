@@ -1,0 +1,23 @@
+1. We may want to consider Linear regression (to predict value) to predict the energy output. 
+The features are AT, AP, RH and V ... or a combination of those features, perhaps eliminating Temperature to see how it impacts the model.
+Logistic Regression algorithms is not a good fit because we are not trying to predict a category. Decision Tree or Random Forest, same, and overcomplicated. 
+
+
+2. The output metric to evaluate is the accuracy level (with help from scikit/python "test score") in predicting the Net hourly electrical energy output (PE) fom the model.
+
+3. data is split for training and testing 
+
+4. comparing at least two different models (same algorithm, different combo of features)
+
+
+
+
+
+
+Modeling approach - did you correctly identify the type of modeling task, features to use, and possible algorithms to use?
+
+Model building  - did you compare at least two different models (different algorithms, different combinations of features, or different hyperparameter combinations) using a vlidation set or cross-validation to optimize your model?
+
+Model evaluation - did you set a reasonable evaluation metric to determine the performance of your model, and then calculate it on the test set?
+
+Model interpretation - did you correctly interpret and clearly communicate the performance of your model?
